@@ -1,0 +1,31 @@
+.Pokecards{
+    min-width: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 1rem 1rem ;
+    flex-basis: 18%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.header{
+    padding: 3rem 0 ;
+}
+.poke-name{
+    color: blue;
+}
+img{
+    width: 80%;
+}
+
+.Pokecards:hover{
+    animation: rotates 2s forwards;
+}
+
+@keyframes rotates {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}

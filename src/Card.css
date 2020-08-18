@@ -1,0 +1,16 @@
+img{
+    width: 10rem;
+    height: 12rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .Card{
+      text-align: center;
+      margin-top: 15rem;
+  }
+  button{
+      margin-top: 20rem;
+  }
+ 

@@ -1,0 +1,60 @@
+.Pokedex{
+    text-align: center;
+}
+
+section{
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    
+
+}
+.win{
+    background-color: chartreuse;
+    position: relative;
+    z-index: 1;
+    /* animation: scaled 3s infinite; */
+}
+.lose{
+    background-color: crimson;
+    position: relative;
+    animation: scealed 3s forwards;
+}
+
+@keyframes scaled{
+    0%   {
+        top: 0;
+    }
+
+    50% {
+        top: 100px;
+    }
+    60% {
+        top: 0px;
+    }
+    70% {
+        top: 100px;
+    }
+    80% {
+        top: 0px;
+    }
+    80% {
+        top: 100px;
+    }
+    100%   {
+
+        top: 0;
+    }
+}   
+@keyframes scealed{
+    0%   {
+       opacity: 1; 
+    }
+  100%   {
+        opacity: 0;
+    }
+}   
+
+
